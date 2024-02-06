@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> BLOG 1</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio animi numquam eveniet quos consequuntur tempore voluptates modi fuga, cum illum dolore officiis ipsa nostrum totam expedita commodi. Obcaecati, quibusdam?
+    <br><br><br><br>
+<button style="padding:20px;"id="likebutton" onclick="like()">👍&nbsp;69</button><br><br><br>
+<a href="index.html"><h1>Main Page</h1></a>
+
+<script>
+    var likebutton = document.getElementById("likebutton")
+    var liked = false;
+   function like()
+   {
+      if (!liked)
+      {
+         likebutton.innerHTML="👍 70";
+         liked=true;
+      }
+      else
+      {
+        likebutton.innerHTML = "👍 69";
+        liked=false;
+
+      }
+   }
+</script>
+
+</body>
+</html>

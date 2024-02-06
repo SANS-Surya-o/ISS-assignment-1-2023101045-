@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> BLOG 2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum distinctio adipisci sed quasi, magnam nihil voluptate dolores quo corrupti reiciendis quia minima dignissimos, labore, ratione consequatur ipsam inventore voluptates in.</p>
+    <p>Quod minima nemo molestias et incidunt itaque ex, harum consequuntur non pariatur veniam ab ut est? Voluptas debitis odio nostrum quae, in eius tenetur ipsam nulla voluptates, esse sapiente mollitia.</p>
+    <p>Expedita, facilis! Ducimus adipisci quae maiores. Odio sed perferendis magnam incidunt consequatur corporis, mollitia, architecto rerum laudantium natus non ab obcaecati asperiores soluta tenetur iste alias necessitatibus. Quas, laudantium ipsum!</p>
+    <br><br><br><br>
+<button style="padding:20px;"id="likebutton" onclick="like()">👍&nbsp;69</button><br><br><br>
+<a href="index.html"><h1>Main Page</h1></a>
+
+<script>
+    var likebutton = document.getElementById("likebutton")
+    var liked = false;
+   function like()
+   {
+      if (!liked)
+      {
+         likebutton.innerHTML="👍 70";
+         liked=true;
+      }
+      else
+      {
+        likebutton.innerHTML = "👍 69";
+        liked=false;
+
+      }
+   }
+</script>
+
+</body>
+</html>
